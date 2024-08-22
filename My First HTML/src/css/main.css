@@ -1,18 +1,16 @@
-
 /* Palabra reservada: body, p , h1*/
-body{
+body {
     background-color: azure;
     font-family: verdana;
     font-size: 30px;
 }
 
 /* Class */
-.myText{ 
+.myText {
     background-color: red;
 }
 
 /* id */
-#myImageSVG{
+#myImageSVG {
     background-color: aqua;
 }
-
