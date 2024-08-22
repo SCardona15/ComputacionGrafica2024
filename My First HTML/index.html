@@ -9,16 +9,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/main.css">
-    <script>
-alert("Hello World!");
-
-    </script>
+   
     <title>My First HTML</title>
     <!-- Fav Icon -->
     <link type="image/png" sizes="32x32" rel="icon" href="./src/img/icons8-estrella-32.png">
     <link rel="stylesheet" href="./src/css/main.css">
     <script>
         alert("Hello World!");
+
+        function showDate(){
+        
+            document.getElementById('demo').innerHTML = Date()
+        }
     </script>
 </head>
 <body>
@@ -38,6 +40,14 @@ alert("Hello World!");
     </svg>
 
     <img id="myImageSVG" name="myImageSVG" src="./src/svg/papas-fritas.svg" alt="Papas Fritas">
+
+    <button type ="button" onclick="showDate()">"No des click" </button>
+    <p id = "demo">Aqui mostrare fecha...</p>    
+
+
+
+   
+
     
 </body>
 </html>
